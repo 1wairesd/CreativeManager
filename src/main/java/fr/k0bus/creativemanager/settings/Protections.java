@@ -38,7 +38,8 @@ public enum Protections {
     ARMOR("armor", Material.CHAINMAIL_HELMET, "Set a defined player armor set", "Creative Armor"),
     PL_ITEMSADDER("itemsadder", Material.REDSTONE_BLOCK, "Deny player to use itemsadder features", "ItemsAdder"),
     BUILD_CONTAINER("build-container", Material.CHEST, "Deny player to place block with items in inventory", "Place container"),
-    REMOVE_EFFECTS("remove-effects", Material.POTION, "Remove all potion effect when player switch gamemode", "Remove effects");
+    REMOVE_EFFECTS("remove-effects", Material.POTION, "Remove all potion effect when player switch gamemode", "Remove effects"),
+    BREAK("break", Material.BARRIER, "Deny survival player to break creative placed blocks", "Break Creative Block");
 
     private final String name;
     private final Material icon;
